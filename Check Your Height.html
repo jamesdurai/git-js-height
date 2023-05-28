@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Your Height</title>
+</head>
+<body>
+    <script>
+        let height = prompt("Enter the Height");
+
+        let categorizeHeight;
+
+        if (height < 150.0) {
+            document.write("The person is Small");
+        } else if (height >= 150.0 && height < 165.0) {
+            document.write("The person is average heighted");
+        } else if (height >= 165.0 && height <= 195.0) {
+            document.write("The person is taller");
+        } else {
+            document.write("Abnormal height");
+        }
+    </script>
+</body>
+</html>
